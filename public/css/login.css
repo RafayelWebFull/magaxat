@@ -1,0 +1,436 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.wrapper {
+    width: 50% !important;
+    height: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.register-wrapper {
+    width: 50% !important;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.btns-wrapper {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url("../images/authentication.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.register-btns-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url("../images/authentication.png");
+    background-size: auto 100%;
+    background-repeat: repeat-y;
+}
+
+.login-form {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+.register-form {
+    width: 100%;
+    padding: 10px;
+}
+
+.links-wrapper {
+    height: fit-content;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-button {
+    background-color: #2141b5;
+    color: white;
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.r-login-button {
+    background-color: #2141b5;
+    color: white;
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.login-button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+.login-button a:hover {
+    color: white;
+}
+
+.r-login-button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+.r-login-button a:hover {
+    color: white;
+}
+
+.signup-button {
+    color: white;
+    background-color: #2141b5;
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+.signup-button a:hover {
+    color: white;
+}
+
+.r-signup-button {
+    color: white;
+    background-color: rgb(0, 90, 0);
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.r-signup-button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+.r-signup-button a:hover {
+    color: white;
+}
+
+.login-wrapper {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: rgb(184, 91, 0);
+    background: linear-gradient(
+        198deg,
+        rgba(184, 91, 0, 1) 12%,
+        rgba(240, 221, 116, 1) 62%,
+        rgba(204, 98, 1, 1) 99%
+    );
+}
+
+.register-form-wrapper {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: rgb(184, 91, 0);
+    background: linear-gradient(
+        198deg,
+        rgba(184, 91, 0, 1) 12%,
+        rgba(240, 221, 116, 1) 62%,
+        rgba(204, 98, 1, 1) 99%
+    );
+}
+
+.login-top {
+    flex: 1;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.login-top-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.register-top-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.login-top-span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-middle {
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-middle {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form-input {
+    margin-bottom: 30px !important;
+    border: none !important;
+    font-weight: bold !important;
+    background-color: rgb(253, 218, 135) !important;
+}
+
+.fa-user {
+    position: absolute;
+    top: 50px;
+    right: 2px;
+    font-size: 20px;
+}
+
+.password-group {
+    position: relative !important;
+}
+
+.fa-eye {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    font-size: 20px;
+}
+
+.form-btn {
+    height: 50px;
+    width: 100%;
+    margin: 30px 0px 30px 0px;
+    background: rgb(4, 64, 1);
+    background: linear-gradient(
+        175deg,
+        rgba(4, 64, 1, 1) 31%,
+        rgba(14, 168, 6, 1) 79%,
+        rgba(120, 247, 127, 1) 100%
+    );
+    border-radius: 3px;
+    border: none;
+}
+
+.check-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check-input {
+    margin-right: 10px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.interesting-types-group-div {
+    margin-top: 10px;
+}
+
+.interesting-types-label {
+    display: none;
+}
+
+.interestings-list {
+    display: none;
+}
+
+.show-interestings-list {
+    display: flex;
+}
+
+.additional-types {
+    display: none;
+}
+
+.show-additional-types {
+    display: block;
+}
+
+.organisation-div {
+    display: none;
+}
+
+.show-organisation {
+    display: block;
+}
+
+.text-area-form-input {
+    resize: none;
+    background-color: rgb(253, 218, 135) !important;
+}
+
+.show-text-area {
+    display: flex;
+}
+
+.active-auth-button {
+    background-color: rgb(0, 90, 0);
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        height: 100%;
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-wrapper {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .register-form-wrapper {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .register-wrapper {
+        display: flex;
+        flex-direction: column;
+        background-size: auto;
+        width: 90% !important;
+    }
+
+    .btns-wrapper {
+        justify-content: center;
+        height: 70%;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        background-image: url("../images/authentication.png");
+        background-size: 150% 100%;
+        background-repeat: no-repeat;
+        border-top-right-radius: 30px;
+    }
+
+    .r-login-button {
+        height: 200px;
+    }
+
+    .r-signup-button {
+        height: 200px;
+    }
+
+    .register-btns-wrapper {
+        justify-content: center;
+        height: 30%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-size: 150% 100%;
+        object-fit: contain;
+        border-top-right-radius: 30px;
+    }
+
+    .register-form-wrapper {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 30px;
+        height: auto;
+    }
+
+    .links-wrapper {
+        height: 40%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-button {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .check-group {
+        flex-direction: column;
+    }
+}
